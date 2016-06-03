@@ -4,7 +4,7 @@
 
     <groupId>com.github.bieliaievays</groupId>
     <artifactId>viewpagerindicator</artifactId>
-    <version>1.1-SNAPSHOT</version>
+    <version>1.1</version>
 
     <name>ViewPagerIndicator</name>
     <description>Circles ViewPagerIndicator widget for Android. For projects under Android API &gt;=15.</description>
@@ -35,7 +35,7 @@
         <connection>scm:git:git@github.com:bieliaievays/ViewPagerIndicatorCircles.git</connection>
         <developerConnection>scm:git:git@github.com:bieliaievays/ViewPagerIndicatorCircles.git</developerConnection>
         <url>git@github.com:bieliaievays/ViewPagerIndicatorCircles.git</url>
-        <tag>HEAD</tag>
+        <tag>viewpagerindicator-1.1</tag>
     </scm>
 
     <distributionManagement>
