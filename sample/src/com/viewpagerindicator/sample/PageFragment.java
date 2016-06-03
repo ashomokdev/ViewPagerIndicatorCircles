@@ -44,7 +44,7 @@ public class PageFragment extends Fragment {
 
         TextView tvPage = (TextView) view.findViewById(R.id.tvPage);
         tvPage.setText("Page " + pageNumber);
-        tvPage.setBackgroundColor(backColor);
+        view.setBackgroundColor(backColor);
 
         return view;
     }
