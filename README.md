@@ -49,6 +49,7 @@ Including In Your Project
 -------------------------
  * Maven 
  ```xml
+ 
 <dependency>
     <groupId>com.github.bieliaievays</groupId>
     <artifactId>viewpagerindicator</artifactId>
@@ -58,6 +59,7 @@ Including In Your Project
  ```   
  * Gradle
  ```xml
+ 
    compile group: 'com.github.bieliaievays', name: 'viewpagerindicator', version: '1.0'
 ```
 
