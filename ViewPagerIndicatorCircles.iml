@@ -40,5 +40,6 @@
     <orderEntry type="jdk" jdkName="Maven Android API 23 Platform" jdkType="Android SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="Maven: com.google.android:support-v4:r6" level="project" />
+    <orderEntry type="library" name="Maven: com.google.android:support-v4:r6" level="project" />
   </component>
 </module>
