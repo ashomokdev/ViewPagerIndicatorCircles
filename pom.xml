@@ -5,6 +5,7 @@
     <groupId>com.github.bieliaievays</groupId>
     <artifactId>viewpagerindicator</artifactId>
     <version>1.2-SNAPSHOT</version>
+    <packaging>aar</packaging>
 
     <name>ViewPagerIndicator</name>
     <description>Circles ViewPagerIndicator widget for Android. For projects under Android API &gt;=15.</description>
@@ -49,6 +50,7 @@
         </repository>
     </distributionManagement>
     <build>
+        <!--<sourceDirectory>library</sourceDirectory>-->
         <plugins>
             <plugin>
                 <groupId>org.sonatype.plugins</groupId>
@@ -85,6 +87,23 @@
                     </execution>
                 </executions>
             </plugin>
+            <plugin>
+                <groupId>com.simpligility.maven.plugins</groupId>
+                <artifactId>android-maven-plugin</artifactId>
+                <version>4.4.2</version>
+                <extensions>true</extensions>
+                <configuration>
+                    <androidManifestFile>${basedir}/library/AndroidManifest.xml</androidManifestFile>
+                    <nativeLibrariesDirectory>${basedir}/library/libs</nativeLibrariesDirectory>
+                    <resourceDirectory>${basedir}/library/res</resourceDirectory>
+                    <sdk>
+                        <path>
+                            /home/iuliia/Android/Sdk
+                        </path>
+                        <platform>23</platform>
+                    </sdk>
+                </configuration>
+            </plugin>
         </plugins>
     </build>
     <profiles>
@@ -100,7 +119,7 @@
                         <execution>
                             <id>attach-sources</id>
                             <goals>
-                                <goal>jar-no-fork</goal>
+                                <goal>aar-no-fork</goal>
                             </goals>
                         </execution>
                     </executions>
@@ -113,7 +132,7 @@
                         <execution>
                             <id>attach-javadocs</id>
                             <goals>
-                                <goal>jar</goal>
+                                <goal>aar</goal>
                             </goals>
                         </execution>
                     </executions>
