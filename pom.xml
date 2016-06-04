@@ -4,7 +4,7 @@
 
     <groupId>com.github.bieliaievays</groupId>
     <artifactId>viewpagerindicator</artifactId>
-    <version>1.2</version>
+    <version>1.3-SNAPSHOT</version>
     <packaging>aar</packaging>
 
     <name>ViewPagerIndicator</name>
