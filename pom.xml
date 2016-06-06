@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.github.bieliaievays</groupId>
     <artifactId>viewpagerindicator</artifactId>
-    <version>1.5-SNAPSHOT</version>
+    <version>1.5</version>
     <packaging>aar</packaging>
 
     <name>ViewPagerIndicator</name>
@@ -37,7 +36,7 @@
         <connection>scm:git:git@github.com:bieliaievays/ViewPagerIndicatorCircles.git</connection>
         <developerConnection>scm:git:git@github.com:bieliaievays/ViewPagerIndicatorCircles.git</developerConnection>
         <url>git@github.com:bieliaievays/ViewPagerIndicatorCircles.git</url>
-        <tag>viewpagerindicator-1.2</tag>
+        <tag>viewpagerindicator-1.5</tag>
     </scm>
 
     <distributionManagement>
