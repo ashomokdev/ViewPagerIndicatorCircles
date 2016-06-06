@@ -4,7 +4,7 @@
 
     <groupId>com.github.bieliaievays</groupId>
     <artifactId>viewpagerindicator</artifactId>
-    <version>1.5</version>
+    <version>1.6-SNAPSHOT</version>
     <packaging>aar</packaging>
 
     <name>ViewPagerIndicator</name>
@@ -36,7 +36,7 @@
         <connection>scm:git:git@github.com:bieliaievays/ViewPagerIndicatorCircles.git</connection>
         <developerConnection>scm:git:git@github.com:bieliaievays/ViewPagerIndicatorCircles.git</developerConnection>
         <url>git@github.com:bieliaievays/ViewPagerIndicatorCircles.git</url>
-        <tag>viewpagerindicator-1.5</tag>
+        <tag>viewpagerindicator-1.2</tag>
     </scm>
 
     <distributionManagement>
