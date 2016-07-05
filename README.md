@@ -53,14 +53,14 @@ Including In Your Project
 <dependency>
     <groupId>com.github.bieliaievays</groupId>
     <artifactId>viewpagerindicator</artifactId>
-    <version>1.0</version>
+    <version>1.7</version>
 </dependency>
 
  ```   
  * Gradle
  ```xml
  
-   compile group: 'com.github.bieliaievays', name: 'viewpagerindicator', version: '1.0'
+   compile group: 'com.github.bieliaievays', name: 'viewpagerindicator', version: '1.7'
 ```
 
 This project depends on the `ViewPager` class which is available in the Android Support Library.
