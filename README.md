@@ -9,11 +9,17 @@ ViewPagerIndicator widget for Android that are compatible with the ViewPager fro
 
 <br>
 
-Usage
+Usage (version 1.7 and above works OK)
 ----------------------
 
 *For a working implementation of this project see the `sample/` folder.*
 
+If you have compilation errors:<br>
+1. Open root directory (ViewPagerIndicatorCircles) in IDEA.<br>
+2. Compile 'library' project using maven.<br>
+
+
+*Using in your own project:*
   1. Include the widget in your view. This should usually be placed
      adjacent to the `ViewPager` it represents.
 ```xml
