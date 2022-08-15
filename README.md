@@ -72,10 +72,6 @@ Including In Your Project
 This project depends on the `ViewPager` class which is available in the Android Support Library.
 
 
-Developed By
-----------------------
-Iuliia Ashomok - <ashomokdev@gmail.com>
-
 License
 -------------
 
